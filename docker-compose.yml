@@ -1,0 +1,9 @@
+version: '2'
+services:
+    app:
+        build: .
+        command: python main.py
+        volumes:
+            - .:/code:rw
+        environment:
+            - PYTHONBUFFERED=1
