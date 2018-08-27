@@ -10,7 +10,7 @@ __pycache__/
 # C extensions
 *.so
 # secrets
-.secret
+*.secret
 # Distribution / packaging
 .Python
 build/
@@ -125,4 +125,3 @@ pip-selfcheck.json
 
 
 # End of https://www.gitignore.io/api/python
-
